@@ -54,5 +54,5 @@ var keyClass = document.querySelector("."+currentKey);
 keyClass.classList.add("pressed");
 setTimeout(function () {
   keyClass.classList.remove("pressed")
-}, 20);
+}, 10);
 }
